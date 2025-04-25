@@ -1,0 +1,175 @@
+/* #love{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin:10px;
+    background-image: url("pic2.png");
+    background-size:
+    display: inline-block;
+    background-color: aqua;
+    position: fixed;
+    right: 0px;
+} */
+/* * {
+   box-sizing: border-box;
+} */
+
+body {
+   text-align: center;
+}
+
+div {
+   height: 100px;
+   width: 100px;
+   display: inline-block;
+   border: 2px solid rgb(148, 164, 56);
+   transition-property:all;
+   transition-duration: 2s;
+   transition-timing-function:linear;
+   /* transition-delay: 1s; */
+   
+}
+
+#container {
+   width: 700px;
+   height: 300px;
+   /* display: flex;
+   /* flex-direction: row; */
+   /* justify-content: center; */
+   flex-wrap: wrap;
+   /* align-items: center;
+   align-content:center; */ 
+
+}
+
+#box7:hover{
+   background-color: blueviolet;
+   font-size:50px;
+   /* transform: scale(2); */
+   /* transform: translate(200px,200px); */
+   transform: skew(2px);
+   animation-direction:alternate ;
+   
+}
+#box1 {
+   background-color: aqua;
+   /* flex-grow: 1; */
+   /* transform: rotate(90deg); */
+    rotate: z 90deg; /*xandy axis means its rotate the box behind */
+   
+}
+@keyframes identifier {
+   from{background-color: brown;}
+   to{background-color: rgb(231, 201, 179);}
+}
+
+#box2 {
+   background-color: aquamarine;
+   /* height: 200px; */
+   /* align-self: flex-end; */
+   /* align-self: 2; */
+   /* flex-grow: 27; */
+   animation-name: identifier;
+   animation-duration: 1s; /*blinking*/
+   animation-timing-function: linear;
+   /* animation-delay: 1s; */
+   animation-iteration-count: infinite;
+   background-image: url("pic2.png");
+   background-size: cover;
+   transition: background-size 0.3s linear;
+
+}
+
+#box3 {
+   background-color: bisque;
+   /* height: 300px; */
+   /* flex-shrink: 1; */
+}
+
+#box4 {
+   background-color: rgb(185, 121, 37);
+}
+
+#box5 {
+   background-color: blueviolet;
+   /* width:min-content; */
+}
+#box2:hover{
+   background-color: darksalmon;
+   color:white;
+   /* font-size:50px; */
+   background-size: 105%; /* Zoom effect */
+
+}
+
+
+@media (max-width:300px)
+{
+   #box1{
+      background-color: green;
+   }
+   
+}
+@media (min-width:300px) and (max-width:400px)
+{
+   #box4{
+      background-color: pink;
+   }
+    
+}
+@media (min-width:400px) and (max-width:600px)
+{
+   #box3{
+      background-color:red;
+   }
+   
+}
+@media (min-width:600px)
+{
+   #box5{
+      background-color:rgb(17, 3, 30);
+   }
+   
+}
+/* @media (width:500px)
+{
+   #box3
+   {
+      background-color: black;
+   }
+}
+@media(min-width:200px) and (max-width:600px)
+{
+   #box4{
+      background-color: darkslategray;
+   }
+   #box6{
+      background-color: darkslategray;
+   }
+} */
+ #Hello{
+   height: 100px;
+   width: 100px;
+   background-color: fuchsia;
+   animation-name: Hello;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   /* animation-delay: 1s; */
+   top: 100px;
+   left: 100px;
+   position: absolute;
+ }
+ @keyframes Hello {
+   /*from*/0%{background-color: antiquewhite;
+         left: 0px;
+   }
+   50%{background-color: blue;
+         color: aliceblue;
+   }
+
+   /*to*/100%{background-color:dimgrey;
+      right: 200px;
+   }
+   
+ }
