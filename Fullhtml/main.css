@@ -1,0 +1,21 @@
+html
+    {
+        font-size:22px
+    }
+    body
+    {
+        background-color:rosybrown;
+        color: whitesmoke;
+    }
+    a
+    {
+        color: brown;
+    }
+    a:visited
+    {
+        color: rgb(214, 33, 27);
+    }
+    a:hover,a:active
+    {
+        color: aqua;
+    }

@@ -1,0 +1,9 @@
+let a=190.599;
+let b=2.5956;
+ a=a+b;//3
+ b=a-b;//1
+ a=a-b;//2  
+ a=parseFloat(a.toFixed(2));
+ b=parseFloat(b.toFixed(2));
+ console.log("a=1 now it's:",a);
+ console.log("b=2 now new value is:",b);

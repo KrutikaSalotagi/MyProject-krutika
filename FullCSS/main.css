@@ -1,0 +1,31 @@
+h1{
+    color:rgb(227, 79, 104);
+    /*background-color:lightgray;*/
+}
+body{
+    background-color: bisque;
+}
+
+p{
+    color:#eeaabb;
+    background-color:aqua;
+}
+#demo{
+    color:#afaaee;
+}
+.Class1{
+    background-color:#10ffaa;
+    color:chocolate;
+}
+
+div{
+    background-color:blue;
+}
+
+.heading{
+    color:red;
+}
+
+button{
+    /*background-color:green;*/
+}

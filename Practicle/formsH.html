@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FormForEx</title>
+        <meta charset="UTF-8">
+        <meta author="Krutika" content="Forms Types And how they works">
+    </head>
+    <style>
+        html{
+            font-size: 30px;
+            background-color: lightgray;
+        }
+        p{
+            text-align: center;
+            color: rgb(220, 64, 197);
+        }
+        
+    </style>
+    <body>
+        <!-- <iframe src="https://www.youtube.com/watch?v=1tAvYhW1ZLI" frameborder="0">Beauty</iframe> -->
+        <p>welcome to Login Page Of FormForEx</p>
+        <h1 style="text-align: center;">Login</h1>
+
+        <form action="google.com/get" method="get">
+            <fieldset>
+                <legend>Login Info</legend>
+              <p>  
+                <label for="FullNames">Full Name:</label>
+                <input type="text" name="FullNames" id="FullNames" placeholder="Enter your Name" autocomplete="on" required autofocus>
+             </p>
+             <p>
+                <label for="Password">Password:</label>
+                <input type="password" id="password" placeholder=" Enter Password">
+                <br>
+            </p>             
+             <p>
+                <label for="PhoneNumber">Phone Number:</label>
+                <input type="tel" id="PhoneNumber" maxlength="10">
+             </p>
+              <p>
+                <label for="Choose your fav Books">Choose your fav Books: </label>
+                  <select id="Choose your fav Books" name="Books">
+                        <optgroup label="Novel">
+                            <option value="Novel" id="Novel">Ghost story</option>
+                            <option value="Love story" id="Novel">Love Story</option>
+                            <option value="Spy Stories" id="Novel">Spy Stories</option>
+                        </optgroup>
+                        <optgroup label="1 to 10th Books">
+                            <option value="Maths">Maths</option>
+                            <option value="Kannada">Kannada</option>
+                            <option value="English">English</option>
+                            <option value="Science">Science</option>
+                        </optgroup>
+                        <option value="Other">Other</option>
+                    </select>
+            </p>
+            <p>
+            <label for="Language">Language:</label>
+            <input type="text" name="Language" id="Language" list="Languagelist">
+            <datalist id="Languagelist">
+                <option value="Kannada">
+                <option value="Marathi">
+                <option value="English">
+                <option value="Hindi">
+                <option value="Telugu">
+            </datalist></p>
+            <p>
+                <label for="FavColor">FavColor:</label>
+                <input type="color" name="red" id="red">
+            </p>
+            <p><input type="submit" id="button" value="Login" ></p>
+
+            </fieldset>
+        </form>
+    </body>
+
+
+
+
+
+</html>

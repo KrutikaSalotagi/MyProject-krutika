@@ -1,0 +1,43 @@
+/* h1{
+    text-align: center;
+    /* height: 10px;*/
+    /* width: 10em;  */
+    /* background-color:rgba(245, 56, 56, 0.377);
+    padding: 1%;
+    margin: 2%; */
+    /* border-radius: 20%; */
+    /* border: 2px solid paleturquoise;
+    position:relative; */
+/* } */
+/* section{
+    background-color: rgb(182, 213, 59);
+    width: 20vw;
+    padding: 10vw;
+    margin: 10vw;
+    border: 0.5vw solid rgb(97, 234, 222);
+    font-size: 2em;
+} */
+/* .con{
+    height:100px;
+    width: 100px;
+    border: 2px solid blueviolet;
+    background-color: rgb(254, 163, 196);
+    display: inline-block;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+} */
+/* p{
+    position:relative;
+    background-color: rgb(180, 180, 252);
+     inset:5px; /*inset property will add all side like top,right,bottom and right */
+/* }*/  
+
+
+
+#1{
+    background-color: aqua;
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+}

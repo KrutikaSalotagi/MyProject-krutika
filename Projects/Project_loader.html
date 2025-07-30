@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader</title>
+    <link rel="icon" href="loader.png" type="image/png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:floralwhite;
+            flex-direction: column;
+        }
+
+        .loader {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            /* border: 10px solid #cce3de; */
+            border-left: 10px solid #a4c3b2;
+            animation: loader 1s linear infinite;
+        }
+
+        @keyframes loader {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        h1:hover {
+            margin-top: 20px;
+            font-size: 50px;
+            color:#ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <h1>Page is loading stay with Us...</h1>
+</body>
+</html>

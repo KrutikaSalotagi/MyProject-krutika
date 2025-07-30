@@ -1,0 +1,39 @@
+section{
+    display: inline-block;
+}
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    display: inline-block;
+}
+#h{
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+    
+}
+#k{
+    position: relative;
+    top:200px;
+    left: 10px;
+
+  } 
+#p{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    z-index: 3;
+}
+ 
+#m{
+    position:relative;
+    background-image: url("pic2.png");
+    background-size:contain;
+   
+}
